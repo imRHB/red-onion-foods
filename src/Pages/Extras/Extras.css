@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+}
+.extra-item {
+    transition: 0.5s;
+}
+.extra-item:hover {
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.1);
+}

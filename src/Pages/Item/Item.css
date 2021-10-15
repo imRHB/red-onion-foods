@@ -1,0 +1,6 @@
+.meal-item {
+    transition: 0.3s;
+}
+.meal-item:hover {
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,10 @@
+.logo {
+    width: 256px;
+}
+.login-form {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.login-form input {
+    background-color: whitesmoke;
+}
