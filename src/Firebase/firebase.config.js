@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyA0OvOHGFe710GEp42l03IPQ8imNWFh54A",
-    authDomain: "red-onion-foods-8b090.firebaseapp.com",
-    projectId: "red-onion-foods-8b090",
-    storageBucket: "red-onion-foods-8b090.appspot.com",
-    messagingSenderId: "858089265621",
-    appId: "1:858089265621:web:cc9d4ddafff466c0e5055c"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 export default firebaseConfig;
